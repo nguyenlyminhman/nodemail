@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Register page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <form action="/sendmail" method="POST">
+        <table>
+            <tr>
+                <td>From: </td>
+                <td>mannnmgt60850@fpt.edu.vn</td>
+            </tr>
+            <tr>
+                <td>To: </td>
+                <td><input type="email" name="to" placeholder="someone@email.com" /></td>
+            </tr>
+            <tr>
+                <td>Title: </td>
+                <td><input type="text" name="title" placeholder="title here"/></td>
+            </tr>
+            <tr>
+                <td>Content:</td>
+                <td><textarea name="content" rows="5" cols="50"></textarea></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><button type="submit"> Send </button> </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
